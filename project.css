@@ -35,15 +35,18 @@ body
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-
+.education-container
+{
+    padding: 20px;
+    color: white;
 }
 
-.nav-logo a
+
+.education-container .contents
 {
-    font-size: 22px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid;
+    text-decoration: none;
     color:rgb(255, 109, 56);
     padding-left: 10px;
 }
@@ -130,7 +133,7 @@ button:hover
     }
 
     100% {
-        opacity: 100;
+        opacity: 1;
         transform: translate(0);
     }
 }
@@ -139,7 +142,7 @@ button:hover
     font-size: 3.4rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid;
+    text-decoration: none;
     color: rgb(240, 122, 79);
     margin-bottom: 0.66rem;
 }
@@ -243,7 +246,7 @@ button:hover
     border: 1px solid black;
     border-radius: 10px;
     background-color: rgb(218, 245, 245);
-    color: black
+    color: black;
 
 }
 
@@ -275,7 +278,7 @@ button:hover
 .description
 {
     width: 240px;
-    text-decoration: solid;
+    text-decoration: none;
     color: black;
 }
 
@@ -316,7 +319,7 @@ button:hover
 .project-main-container
 {
     width: 100%;
-    margin: 0 auot;
+    margin: 0 auto;
 }
 
 .Project-header h2
@@ -506,7 +509,7 @@ button:hover
     border: 1px solid rgb(180, 179, 179);
     background-color: rgb(230, 220, 220);
     padding: 6px 0 15px 20px;
-    transform: all 0.7s;
+    transition: all 0.7s;
     border-radius: 5px;
 }
 
