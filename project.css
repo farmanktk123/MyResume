@@ -35,19 +35,19 @@ body
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+.}
 .education-container
 {
     padding: 20px;
     color: white;
 }
 
-
 .education-container .contents
 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color:rgb(255, 109, 56);
+    color: rgb(255, 109, 56);
     padding-left: 10px;
 }
 
@@ -303,11 +303,14 @@ button:hover
 }
 
 .service-button
-{
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    padding: 0.32rem 1.85rem;
+    .education-container
+    {
+        padding: 20px;
+        color: white;
+    }
+
+    .education-container .contents
+    {
     margin-left: 5px;
     margin-bottom:0.6rem;
     border: none;
